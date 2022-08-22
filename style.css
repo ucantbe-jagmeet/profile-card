@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .container
@@ -15,7 +15,7 @@
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -39,7 +39,7 @@
 .box1{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background: linear-gradient(to bottom ,rgba(178, 40, 233, 0.615),rgba(40, 194, 233, 0.615),rgba(255, 253, 255, 1));
+    background: linear-gradient(to bottom ,rgba(178, 40, 233, 0.615),rgba(40, 194, 233, 0.615),rgb(184, 181, 184));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,12 +51,13 @@
     width: 120px;
     border-radius: 50%;
     cursor: pointer;
+    filter: brightness(95%);
 }
 
 .box1 h2{
     margin-top: 20px;
     cursor: pointer;
-    text-transform: uppercase;
+
 }
 
 .box1 h5
@@ -65,12 +66,11 @@
     letter-spacing: 2px;
     font-weight:200;
     color: grey;
-    font-size:1rem;
 }
 
 .box2
 {
-    background:rgba(255, 253, 255, 1) ;
+    background:rgb(184, 181, 184) ;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     display: flex;
@@ -80,7 +80,7 @@
 
 .about
 {
-    min-height:30%;
+    min-height:21%;
     margin: 0 5%;
     width: 90%;
     text-align: left;
@@ -93,7 +93,10 @@
 
 .social-links
 {
- cursor: pointer;    
+ cursor: pointer;   
+ min-height: 30%;
+ padding: 10px 0; 
+ 
 }
 
 .social-links .links
@@ -102,7 +105,7 @@
     height: 100px;
     padding: 0 10px;
     color: grey;
-    margin-top: 20px;
+    
 }
 
 .social-links .facebook:hover
