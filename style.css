@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right ,rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(./img/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    width:30%;
+    height: 80vh;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box
+{
+    width: 100%;
+    height: 50%;
+    
+}
+.box1{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+   background: linear-gradient(to bottom ,rgba(178, 40, 233, 0.615),rgba(40, 194, 233, 0.615),rgba(255, 253, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.picture{
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.box1 h2{
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.box1 h5
+{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight:200;
+    color: grey;
+}
+
+.box2
+{
+    background:rgba(255, 253, 255, 1) ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about
+{
+    min-height:30%;
+    margin: 0 5%;
+    width: 90%;
+    text-align: left;
+}
+
+.about p
+{
+    color: grey;
+}
+
+.social-links
+{
+ cursor: pointer;    
+}
+
+.social-links .links
+{
+    width: 45px;
+    height: 100px;
+    padding: 0 10px;
+    color: grey;
+}
+
+.social-links .facebook:hover
+{
+    color:rgb(28, 31, 221);
+}
+.social-links .twitter:hover
+{
+    color:rgba(40, 194, 233, 0.615);
+}
+.social-links .github:hover
+{
+    color:#171515;
+}
+.social-links .gmail:hover
+{
+    color:#f73653c2;
+}
+
+.section
+{
+    width: 100%;
+    height: 40%;
+}
+.section button
+{
+    text-decoration: none;
+    padding: 15px 20px;
+    border: none;
+    background: linear-gradient(to top,rgba(201, 196, 196, 0.395),rgba(255, 253, 255, 1));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.section button:hover
+{
+    transform: scale(1.1);
+    background:rgba(178, 40, 233, 0.415);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
