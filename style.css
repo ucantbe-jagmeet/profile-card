@@ -135,7 +135,7 @@
     text-decoration: none;
     padding: 15px 20px;
     border: none;
-    background: linear-gradient(to top,rgba(201, 196, 196, 0.395),rgba(255, 253, 255, 1));
+    background: linear-gradient(to top,rgba(201, 196, 196, 0.395),rgb(221, 220, 221));
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     outline: none;
